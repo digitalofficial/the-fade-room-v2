@@ -134,6 +134,15 @@ export default function Home() {
         id="hero"
         className="snap-section relative flex items-center overflow-hidden bg-jet"
       >
+        {/* Background image */}
+        <img
+          src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1600&h=900&fit=crop"
+          alt="Barbershop interior with styling chairs and mirrors"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        {/* Gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0D0D0D]/90 via-[#0D0D0D]/75 to-[#0D0D0D]/85" />
+
         {/* Stripe accent bar — left edge */}
         <div className="absolute left-0 top-0 bottom-0 w-2 stripe-accent" />
 
